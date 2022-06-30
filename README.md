@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **CF6 - 632201 Ventas de productos en línea**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF6_632201_VENTAS_PRODUCTOS_EN_LINEA/](https://ecored-sena.github.io/CF6_632201_VENTAS_PRODUCTOS_EN_LINEA/)
 
 #
 
