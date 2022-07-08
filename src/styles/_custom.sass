@@ -79,8 +79,122 @@
 .colr
   span
     color: white !important
+  &_1
+    color: #7F4FC7
+  &_2
+    color: white
 //FONDOS//
 .bgr
   background-color: #FFFAD8
   &::before
     background-color: #EFD198
+  &_1
+    background-color: #A4A3FF
+  &_2
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 25%, rgba(175,175,175,1) 100%);
+    border-radius: 10px
+    margin-top: -72px
+    @media screen and ( max-width: 420px)
+      margin-top: 0
+  &_3
+    background-color: white
+  &_4
+    background-color: #8C5BE1
+    border-radius: 10px
+  &_5
+    background-color: #43A99B
+    border-radius: 10px
+  &_6
+    background-color: #AFAFAF
+    border-radius: 10px
+  &_7
+    background-color: #FFFAD8
+    &::before
+      background-color: #EFD198
+  &_8
+    background-color: #FFF
+    border: groove
+.bg_grad-01
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 77% + 6rem)
+    height: 320px
+    background-color: #F5F5F5
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+.bg_grad-02
+  position: relative
+  .row, p, .tabs-b
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 8rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 67%
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+.bg_grad-03
+  position: relative
+  .row, p, .tabs-b
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 9rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 85%
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      height: 94%
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: 94%
+      width: calc( 100% + 6rem)
+//POSICION EN PANTALLA// 
+.pst
+  left: 50%
+  @media screen and (max-width: 420px)
+    left: 0
+  @media screen and (max-width: 992px)
+    left: 0
+  &_1
+    left: -27%
+    width: 72%
+    @media screen and (max-width: 420px)
+      left: 0
+      width: 100%
+    @media screen and (max-width: 992px)
+      left: 0
+      width: 100%
+      
+//CLASES SOBREESCRITAS//
+.etiqueta
+  background-color: #ECE5F7
+  color: #12263F
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: #12263F !important
+.horizontal-scroll
+  align-items: stretch !important
