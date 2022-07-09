@@ -32,6 +32,7 @@
         )
         .bloque-texto-g__texto.p-5
           p.mb-0 El proceso de promoción de venta de un producto o servicio también se relaciona con las necesidades que se planteen para el cliente ya que a partir del ofrecimiento a dicha solución se estará generando recordación de marca. La promoción también se encarga de explotar esta recordación para influenciar positivamente en la experiencia y la decisión de compra con técnicas de psicología del consumidor. 
+          
       p Así mismo, es muy importante conocer a fondo las características positivas que tiene el producto o servicio para influenciar al consumidor y explicarle por qué es la mejor opción en el mercado. A continuación, se mencionan algunos componentes que hacen parte de una campaña de promoción de productos y servicios:  
   
       TabsB.color-acento-contenido.mb-5
