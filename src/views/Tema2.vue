@@ -9,10 +9,10 @@
     
     .bg_grad-04
       .row.mb-5
-        .col-12.col-md-4.mb-3.mb-md-0
+        .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-up-right")
           figure
             img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="fade-down-left")
           .row.mb-5
             .col-1
               figure.d-flex.justify-content-center
@@ -22,7 +22,7 @@
           .bgr_9.p-4
             p.mb-0.text-bold El propósito de la comunicación digital es asegurarse de que dichos mensajes sean entregados a sus destinatarios por medio de diferentes herramientas y estrategias que logren cautivar al público objetivo. Una de las principales características de la comunicación digital es que se puede llevar un mensaje por medio de diferentes canales de manera simultánea. 
       .row
-        .col-12.col-md-8.order-2.order-md-1
+        .col-12.col-md-8.order-2.order-md-1(data-aos="fade-right")
           p Adicionalmente el mensaje puede moldearse en tiempo real según el tipo de interacción que este tenga con el cliente, y dependiendo del tipo de retroalimentación que recibe por parte de este. Así como este tipo de comunicación permite cambios inmediatos de su forma y contenido, de igual manera se enfrenta al reto de la evolución de las tendencias y los intereses cambiantes de los clientes que habitan el entorno digital que se caracteriza por su rápida cambiabilidad. 
           .row.mb-3
             .col-1
@@ -32,7 +32,7 @@
               p.mb-0 Para una compañía es importante desarrollar campañas de comunicación que exploten de manera adecuada las herramientas y canales disponibles y sacarles así el mayor provecho posible para potenciar otras estrategias como la de marketing. Para esto también es importante conocer el tono y el lenguaje del público objetivo para así apelar a su psicología y establecer conexiones directas que logren su identificación con el producto o servicio a ofrecer. 
           .cajon.bgr_10
             p.text-bold.mb-0.p-4 Si la empresa comprende bien este proceso y pone en marcha una campaña encaminada a la atracción de nuevos clientes potenciales, llegará mucho más eficazmente a cumplir las necesidades del cliente.
-        .col-12.col-md-4.order-1.order-md-2.mb-3.mb-md-0
+        .col-12.col-md-4.order-1.order-md-2.mb-3.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema2/t2-3.png', alt='Texto que describa la imagen')  
     
@@ -42,10 +42,10 @@
       h2 2.1 Definición y tipos de comunicación digital
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-down-right")
         figure
           img(src='@/assets/curso/tema2/t2-4.png', alt='Texto que describa la imagen') 
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="fade-up-left")
         p.mb-5 La comunicación digital se define como el proceso de transmisión de datos y contenido que lleva un mensaje a un público objetivo por medio de herramientas y canales que sirve como complemento a una campaña o estrategia de marketing, a alcanzar objetivos organizacionales, a informar de cambios en las políticas internas de una compañía, a reforzar la cultura organizacional, entre otras.
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img.pst_2.d-flex.justify-content-center
@@ -55,7 +55,7 @@
               p.mb-0 En cuanto a los tipos de comunicación, estos pueden delimitarse con criterios distintos como se mostrará más adelante. Sin embargo es importante acotar la diferencia entre dos de sus componentes: canales y flujo, que se complementan entre sí. Por un lado, los canales se refieren a las entidades de comunicación que existen para que haya un flujo de información. Por otro lado, el flujo se refiere al componente dinámico: a la acción que activa el transmisor del mensaje para que recorra el canal de comunicación. En este caso se definen algunos ejemplos de comunicación digital usuales dentro del mercado:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .tarjeta.bg_grad-05.p-4
           SlyderA(tipo="b").modif
             .row.justify-content-center.position-relative.d-flex.align-items-center
@@ -114,18 +114,18 @@
                 figure
                   img(src='@/assets/curso/tema2/t2-10.svg', alt='01-1')
     
-    figure.mt-5.position-relative.mb-5
+    figure.mt-5.position-relative.mb-5(data-aos="zoom-in-up")
       img(src='@/assets/curso/tema2/t2-11.png', alt='introducción')
       .row.justify-content-center
         .col-12.col-md-10
           .bgr_2
             p.m-0.p-4.text-bold Las campañas de correos electrónicos o email marketing se hacen con plataformas especiales para la gestión de esta información, es así como se logra llegar a miles de personas con las que se interactúa de buena manera para entregar grandes porciones de información; a continuación, se presenta una de las plataformas usadas para esto y se hace una campaña para que se entienda la forma de hacerlo:
     
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Tifqdwz_TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/t2-12.jpg')})`}"
         )
@@ -133,7 +133,7 @@
         p.mb-0.colr_1.text-bold Los videos son muy bien vistos en esta época, los contenidos audiovisuales calan más rápido en los usuarios y se comportan de mejor manera con relación a las métricas y estadísticas de las redes sociales, 
         | por eso se recomienda que todas las empresas hagan sus propios videos, integrando espacios para ello que no son muy costosos y si permiten una gran interacción con la audiencia como se puede ver en el siguiente video: 
     
-    figure
+    figure(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/80w6UmPhAWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
@@ -144,7 +144,7 @@
     
     .bg_grad-06.mb-5
       .row.d-flex.align-items-center
-        .col-12.col-md-8.mb-3.mb-md-0.order-2.order-md-1
+        .col-12.col-md-8.mb-3.mb-md-0.order-2.order-md-1(data-aos="fade-right")
           .row.mt-4
             .col-12.col-md-1
               figure.d-flex.justify-content-center
@@ -152,11 +152,11 @@
             .col-12.col-md-11
               p Existen diversas herramientas dentro de una organización para manejar sus comunicaciones digitales internas. Así como es importante saber gestionar campañas de comunicación dirigidas a clientes potenciales y al público objetivo que se haya determinado, también es fundamental gestionar herramientas de utilización de medios que sirvan como canales de comunicación internos y que faciliten las actividades por desarrollar. 
           p.text-bold.p-4.bgr_11 Algunas de las herramientas más utilizadas para la gestión interna de comunicación digital son:
-        .col-12.col-md-4.order-1.order-md-2
+        .col-12.col-md-4.order-1.order-md-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema2/t2-13.png', alt='1-1')
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-down")
       .tarjeta.bgr_12.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
@@ -239,7 +239,7 @@
     
     .bg_grad-08
       .row.d-flex.align-items-center.mb-5
-        .col-12.col-md-8.mb-3.mb-md-0.order-2.order-md-1
+        .col-12.col-md-8.mb-3.mb-md-0.order-2.order-md-1(data-aos="fade-up-right")
           .row.mt-4
             .col-12.col-md-1
               figure.d-flex.justify-content-center
@@ -247,21 +247,21 @@
             .col-12.col-md-11
               span.text-bold.colr_1 Logar una comunicación digital efectiva es posible con la audiencia siempre y cuando se tenga claro cual es el objetivo de la misma, cual es el mensaje a entregar y como le va a llegar al cliente, por medio de qué canal y con qué flujo, por ejemplo, un mensaje directo a través de un grupo de difusión de mensajería directa. 
               | Adicional a ello se presentan dos grandes objetivos de mejora constante que se dan gracias a la cantidad de mensajes que se llegan a trabajar en un esquema de contenidos, estos dos objetivos son cercanía y tiempo y se presentan a continuación:
-        .col-12.col-md-4.order-1.order-md-2
+        .col-12.col-md-4.order-1.order-md-2(data-aos="fade-down-left")
           figure
             img(src='@/assets/curso/tema2/t2-27.svg', alt='1-1')
 
       .row
-        .col-12.col-md-6
-          .tarjeta-avatar-b.mb-5
+        .col-12.col-md-6.mb-3.mb-md-0(data-aos="flip-up")
+          .tarjeta-avatar-b.mb-3.mb-md-0.h-100
             .tarjeta-avatar-b__img.pst_7.d-flex.justify-content-center
               img.img100(src='@/assets/curso/tema2/t2-28.svg' alt='AvatarTop')
             .tarjeta.bgr_16.pst_8.colr_3
               .p-5
                 h4 Generación de un vínculo cercano con el cliente
                 p.mb-0 Es importante dar una sensación de cercanía con el cliente por lo cual existen técnicas de atención personalizada a través de canales de comunicación digital que pueden incluso ser automatizados. Cuando el cliente siente una experiencia de comunicación personalizadas puede mejorar la imagen de marca incluso si hubo una mala experiencia por parte de este en el pasado. Para esto es recomendable conocer el nombre del cliente y llamarlo por éste, recuerde ser empático con lo que el cliente busca.
-        .col-12.col-md-6
-          .tarjeta-avatar-b.mb-5
+        .col-12.col-md-6(data-aos="flip-down")
+          .tarjeta-avatar-b.mb-3.mb-md-0.h-100
             .tarjeta-avatar-b__img.pst_7.d-flex.justify-content-center
               img.img100(src='@/assets/curso/tema2/t2-29.png' alt='AvatarTop')
             .tarjeta.bgr_16.pst_8.colr_3

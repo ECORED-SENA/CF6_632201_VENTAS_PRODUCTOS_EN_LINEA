@@ -9,7 +9,7 @@
     
     .bg_grad-01.mb-5
       .row
-        .col-12.col-md-8.mb-3.mb-md-0
+        .col-12.col-md-8.order-2.order-md-1(data-aos="fade-right")
           span.colr_1.text-bold El proceso de promoción de un producto o servicio es una de las etapas más importantes del marketing digital ya que es la principal manera de comunicar al público objetivo sus características, propiedades, beneficios y cualidades. 
           | Una estrategia de promoción también puede ponerse en marcha para potenciar la presentación o introducción de un nuevo producto o servicio. 
           .row.mt-4 
@@ -21,12 +21,12 @@
               span.colr_1.text-bold (Rockcontent, 2017)
               | ; todo esto se hace por medio de la creación de una campaña de comunicación sólida y efectiva que incluye: publicaciones en redes sociales, medios impresos, publicidad pagada en internet, ventas personales, relaciones públicas y estrategias comerciales, todo lo anterior dentro de una estrategia. 
               span.text-bold El principal resultado es incidir en el proceso de compra y atraer la atención del cliente.
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-md-0.order-1.order-md-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema1/t1-2.png', alt='1-1')
 
     .bg_grad-02
-      .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-3.jpg')})`}"
         )
@@ -38,56 +38,56 @@
       TabsB.color-acento-contenido.mb-5
         .py-4.py-md-5(titulo="Marketing directo" :icono="require('@/assets/curso/tema1/t1-4.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Marketing directo
                 p.mb-0 Se establece un contacto con el cliente potencial a través de <em>newsletters</em>, mensajería instantánea, llamadas telefónicas.         
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Publicidad" :icono="require('@/assets/curso/tema1/t1-5.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Publicidad
                 p.mb-0 La publicidad se presenta durante el proceso de promoción mediante campañas en diferentes medios de comunicación anuncios en medios digitales, redes sociales, realización de piezas digitales, videos virales, contenido multimedia que no solo se albergue en plataformas sino que también aparezca replicado en otros portales, <em>newsletters</em>, etc. Este componente es de gran alcance y se identifica claramente la marca en esta publicidad, así sea de manera implícita en campañas de expectativas. 
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-11.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Promoción de ventas" :icono="require('@/assets/curso/tema1/t1-6.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Promoción de ventas
                 p.mb-0 A través de descuentos, ofertas, renovaciones automáticas, bundles, plazos de pago, créditos, el cliente podrá ser motivado a tomar la decisión de compra rápidamente así como mejorar su experiencia de compra.  
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Relaciones públicas" :icono="require('@/assets/curso/tema1/t1-7.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Relaciones públicas
                 p.mb-0 Las relaciones públicas pueden abarcar desde acercamiento a personalidades de marca para crear alianzas estratégicas hasta crear publicaciones de redes sociales junto a <em>influencers</em> digitales a cambio de crédito para gastar en la marca. El objetivo es establecer una proyección aspiracional hacia el público objetivo que permita que este se identifique plenamente con el producto o servicio ofrecido.
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-13.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Venta personal" :icono="require('@/assets/curso/tema1/t1-8.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Venta personal
                 p.mb-0 Se basa en establecer una conexión con el comprador que sea lo más directa posible, a través del equipo humano. Esto puede darse en entornos reales o virtuales: ferias, convenciones, reuniones de venta, etc. 
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Eventos y experiencias" :icono="require('@/assets/curso/tema1/t1-9.svg')")
           .row
-            .col-md-8.mb-4.mb-md-0.p-4.d-flex.align-items-center
+            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Eventos y experiencias
                 p.mb-0 Por medio de eventos presenciales o virtuales en donde el cliente haga parte de un entorno, este puede identificarse más directamente con el producto y servicio y motivarse a adquirirlo. Adicionalmente, las experiencias interactivas que tenga el cliente tanto con la marca como con otros usuarios, que compartan reacciones positivas del producto o servicio, también pueden lograr este objetivo. Otros ejemplos de eventos y experiencias son las ferias virtuales o las visitas a puntos de venta o <em>showrooms</em>.
-            .col-md-4
+            .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
 
@@ -104,7 +104,7 @@
             p.m-0.p-4.text-bold Además de los componentes ya mencionados, existen tipos de promoción que van direccionados a abordar una necesidad relacionada con el cliente y motivar a que se tome la decisión de compra, las siguientes son las formas más frecuentes de publicar un productos de manera publicitaria en los diferentes ambientes del mercado: 
     
     .row.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="fade-up")
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -144,10 +144,10 @@
     
     .bg_grad-03.mb-5
       .row.mb-5
-        .col-12.col-md-4.mb-3.mb-md-0
+        .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema1/t1-18.png', alt='Texto que describa la imagen')
-        .col-12.col-md-8
+        .col-12.col-md-8(data-aos="fade-left")
           p.mb-0.text-bold A pesar de que las promociones son comunes dentro de una estrategia de marketing, es importante determinar los objetivos que se quieren alcanzar por medio de estas promociones. Si bien las promociones cuentan con mucha versatilidad, estas no deben usarse indiscriminadamente ya que pueden impactar negativamente en el área financiera de la empresa. 
           .row.mt-5
             .col-12.col-md-1
@@ -159,17 +159,17 @@
               span.colr_1.text-bold  Ceupe (2022). 
               |  Esto permite hablar de los problemas que pueden resolver las promociones y de los casos en los que no es conveniente usarlas.
 
-      .cajon.bgr_7.p-4.mb-5
+      .cajon.bgr_7.p-4.mb-5(data-aos="fade-down")
         p.mb-0 Para garantizar el éxito de una estrategia de promoción se debe apelar a las emociones de una forma precisa, clara y concreta. Además, se debe especificar un tiempo de vigencia para destacar la necesidad relacionada con el producto en busca de generar en el cliente una sensación de urgencia de uso motivada por una promoción que dejará de existir eventualmente. Cuando se pone en marcha de manera efectiva una estrategia de promoción, se logra que el producto o servicio tenga un mayor posicionamiento en redes sociales y por ende, un mayor flujo de compra, un aumento en las ventas y una atracción a nuevos clientes potenciales.  
 
-      .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bgr_1.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
         .bloque-texto-g__img.pst(
           :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-19.jpg')})`}"
         )
         .bloque-texto-g__texto.p-5.pst_1
           p.mb-0 Una estrategia promocional debe desarrollarse teniendo en cuenta varios factores como el público objetivo. Luego de saber a qué tipo de clientes se dirige, se podrá establecer el tono de la estrategia de promoción y los intereses y necesidades a los cuales se va a dar solución. El siguiente paso es delimitar los tiempos de vigencia y duración de las promociones. Es importante tener en cuenta las siguientes preguntas: 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-up")
       .tarjeta.bgr_8.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center

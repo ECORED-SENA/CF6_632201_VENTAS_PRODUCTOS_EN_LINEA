@@ -11,7 +11,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-1.d-flex.align-items-center
         figure
-          img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
+          img.d-none.d-lg-flex(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
       .col-12.col-md-9
         p.mb-0 La comunicación digital llegó para quedarse por un buen tiempo y la misión del comercial en línea es trabajarla a favor de los objetivos comerciales de las empresas como se verá a continuación:
     

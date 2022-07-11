@@ -1,24 +1,33 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 21%
     right: 3%
+    @media screen and (max-width: 992px)
+      width: 60px
+      right: 7%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 14%
     right: 76%
+    @media screen and (max-width: 992px)
+      width: 60px
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 54%
     right: 1%
+    @media screen and (max-width: 992px)
+      width: 60px
   &-4
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 74%
     right: 62%
+    @media screen and (max-width: 992px)
+      width: 60px
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -26,6 +35,8 @@
   100%
     transform: translateY(0px)
 // TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
 .img30
    max-width: 30px !important
 .img40
@@ -84,6 +95,10 @@
   &_3
     h4, p
       color: white
+  &_4
+    color: #0B67D1
+  &_5
+    color: #FDBE41 !important
 //FONDOS//
 .bgr
   background-color: #FFFAD8
@@ -134,6 +149,25 @@
     background-color: #DEEFFB
   &_16
     background: linear-gradient(0deg, rgba(10,81,139,1) 0%, rgba(24,148,246,1) 100%)
+  &_17
+    background-color: #E8E8E8
+    &::before
+      background-color: #D2C1EB
+      left: 41%
+  &_18
+    background-color: #12263F
+    width: fit-content
+  &_19
+    background: linear-gradient(180deg, rgba(253,190,65,1) 0%, rgba(208,159,64,1) 100%)
+    width: fit-content
+  &_20
+    background-color: #E8E8E8
+    &::before
+      background-color: #DEEFFB
+      left: 41%
+  &_21
+    background-color: #ECE5F7
+    border-radius: 10px
 .bg_grad-01
   position: relative
   .row, p, .cajon, .slyder-f
@@ -291,6 +325,123 @@
     @media screen and (max-width: 992px)
       height: calc( 100% + 3rem)
       width: calc( 100% + 6rem)
+.bg_grad-09
+  position: relative
+  .row, p, .tabs-b
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 6rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 93%
+    background-image: url("../assets/curso/tema3/fondo1.svg")
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+.bg_grad-10
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 2rem;
+    left: 0;
+    width: calc( 100% + 6rem);
+    height: 307px;
+    background: linear-gradient(180deg, rgba(127,79,199,1) 0%, rgba(255,255,255,1) 100%);
+    @media screen and (max-width: 420px)
+      height: 100%
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      width: calc( 100% + 6rem)
+.bg_grad-11
+  position: relative
+  .row, p, .tabs-b
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 6rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 21rem)
+    background-image: url("../assets/curso/tema3/fondo2.svg")
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+.bg_grad-12
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 2rem;
+    left: 0;
+    width: calc( 100% + 6rem);
+    height: 100%
+    background: linear-gradient(180deg, rgba(127,79,199,1) 0%, rgba(255,255,255,1) 100%);
+    @media screen and (max-width: 420px)
+      height: 100%
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      width: calc( 100% + 6rem)
+.bg_grad-13
+  position: relative
+  .row, p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 7px
+    left: 21%
+    width: 80%
+    height: 138px
+    background-color: #F6F6F6
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+      margin: 0 -3rem
+    @media screen and (max-width: 992px)
+      height: 100%
+      top: 0
+      left: 0
+      width: calc( 100% + 6rem)
+.bg_grad-14
+  position: relative
+  .row, p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 9%
+    width: 91%
+    height: 63%
+    background-color: #FCFCFC
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
+    @media screen and (max-width: 992px)
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 6rem)
 //POSICION EN PANTALLA// 
 .pst
   left: 50%
@@ -376,5 +527,35 @@
       display: block
       position: absolute
       transform: translate(-50%, -50%)
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #D2C1EB !important
+  &::before
+    background-color: #D2C1EB
+.tabs-a__tab 
+  background-color: #E8E8E8 !important
+  &:hover
+    background-color: #D2C1EB
+.tarjeta.color-acento-botones--borde
+      border: solid 4px #12263F
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D2C1EB !important
+      color: #12263F
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F8F8F8
 
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #DDDDDD
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #DDDDDD !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #DDDDDD
+    
 
