@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Comunicación digital y plataformas ',
     descripcionCurso:
-      'Las estrategias de comunicación digital cambian rápidamente debido a los avances tecnológicos en las plataformas online disponibles. Antes era suficiente con atraer la atención del público objetivo, actualmente es necesario que las compañías cuenten con el conocimiento acerca de los canales y flujos de información que existen en el entorno digital así como estos se relacionan con las estrategias de marketing.',
+      'Las estrategias de comunicación digital cambian rápidamente debido a los avances tecnológicos en las plataformas <em>online</em> disponibles. Antes era suficiente con atraer la atención del público objetivo, actualmente es necesario que las compañías cuenten con el conocimiento acerca de los canales y flujos de información que existen en el entorno digital así como estos se relacionan con las estrategias de <em>marketing</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -184,7 +184,7 @@ export default {
     {
       termino: '<em>Blog</em>',
       significado:
-        'Blog	Un blog es un tipo de sitio web donde se publican contenidos de textos.',
+        'Blog	Un blog es un tipo de sitio <em>web</em> donde se publican contenidos de textos.',
     },
     {
       termino: '<em>Bundle</em>',
@@ -220,7 +220,8 @@ export default {
   complementario: [
     {
       tema: '2. Comunicación digital',
-      referencia: 'Corniani, M. (2006). Digital Marketing Communication.',
+      referencia:
+        'Corniani, M. (2006). <em>Digital Marketing Communication</em>.',
       tipo: 'Libro',
       link:
         'https://www.researchgate.net/publication/227600158_Digital_Marketing_Communication',
@@ -228,7 +229,7 @@ export default {
     {
       tema: '2.3. Manejo de la comunicación digital',
       referencia:
-        'Tokio School. (2020). Marketing y comunicación digital: la importancia del mensaje',
+        'Tokio School. (2020). <em>Marketing</em> y comunicación digital: la importancia del mensaje',
       tipo: 'Artículo',
       link:
         'https://www.tokioschool.com/noticias/marketing-comunicacion-digital/',

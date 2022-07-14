@@ -18,7 +18,7 @@
             figure
               img.d-none.d-md-flex(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
           .col-12.col-md-11
-            p.mb-0.text-bold.colr_4 Dentro de la creación de una estrategia de comunicación, marketing y ventas en línea es necesario tener claro cuales son las principales plataformas que existen en el mercado para dichos fines y elegir la mejor opción según los objetivos organizacionales. Sin embargo se debe recordar también que las plataformas digitales son solo una solución que posibilita la ejecución de diversas tareas pero que no deben ser la única base de una estrategia organizacional.
+            p.mb-0.text-bold.colr_4 Dentro de la creación de una estrategia de comunicación, <em>marketing</em> y ventas en línea es necesario tener claro cuales son las principales plataformas que existen en el mercado para dichos fines y elegir la mejor opción según los objetivos organizacionales. Sin embargo se debe recordar también que las plataformas digitales son solo una solución que posibilita la ejecución de diversas tareas pero que no deben ser la única base de una estrategia organizacional.
     
     .cajon.bgr.p-4(data-aos="flip-up")
       p.mb-0 Estas herramientas también permiten llevar a cabo campañas de impacto y hacer seguimiento a estrategias con un mayor grado de  complejidad por varias personas simultáneamente.
@@ -100,7 +100,7 @@
       .row.justify-content-center
         .col-12.col-md-10
           .bgr_2
-            p.m-0.p-4.text-bold Partiendo de herramientas de marketing como los análisis DOFA, PESTEL o desarrollo de propuestas comerciales se puede determinar el concepto de negocio y posteriormente se pueden elegir las plataformas comerciales y de ventas más adecuadas para la compañía. Elegir la mejor plataforma no solo será un eslabón clave para resolver las necesidades de venta de la compañía sino para potenciar el posicionamiento en buscadores y redes sociales.
+            p.m-0.p-4.text-bold Partiendo de herramientas de <em>marketing</em> como los análisis DOFA, PESTEL o desarrollo de propuestas comerciales se puede determinar el concepto de negocio y posteriormente se pueden elegir las plataformas comerciales y de ventas más adecuadas para la compañía. Elegir la mejor plataforma no solo será un eslabón clave para resolver las necesidades de venta de la compañía sino para potenciar el posicionamiento en buscadores y redes sociales.
 
     .bg_grad-10
       p.text-bold.p-4.bgr_18.colr_2.mb-5 Existen tres tipos principales de plataforma de ventas en línea:
@@ -121,8 +121,8 @@
     .bg_grad-11
       .row.mb-5
         .col-12.col-md-7.order-2.order-md-1(data-aos="fade-right")
-          span Este tipo de comercio y ventas electrónicas es normalmente utilizada en compañías que no tienen dentro de sus planes estratégicos tercerizar su servicio de ventas en línea y cuentan con servidores propios. Dichas plataformas implican una inversión mayor que las que están abiertas al público en general ya que requieren instalar software especializados. 
-          span.text-bold.colr_1 Adicionalmente uno de los requerimientos es contar con el hosting propio de una página web. 
+          span Este tipo de comercio y ventas electrónicas es normalmente utilizada en compañías que no tienen dentro de sus planes estratégicos tercerizar su servicio de ventas en línea y cuentan con servidores propios. Dichas plataformas implican una inversión mayor que las que están abiertas al público en general ya que requieren instalar <em>software</em> especializados. 
+          span.text-bold.colr_1 Adicionalmente uno de los requerimientos es contar con el <em>hosting</em> propio de una página <em>web</em>. 
           h3.mt-3 Funcionalidad
           .row
             .col-12.col-md-2
@@ -236,7 +236,7 @@
     
     h3.p-4.bgr_19.mb-5 <em>Marketplaces</em>
 
-    p.mb-5 Son plataformas que agrupan a diversos tipos de vendedores que comercializan sus productos utilizando la infraestructura y servicios de estos portales sin necesidad de tomar los riesgos que implica vincular un alojamiento interno o externo dentro de los servidores de una compañía. Son una buena herramienta para comenzar a poner en marcha un comercio electrónico. Existen redes sociales que dentro de su propia infraestructura ofrecen el servicio de marketplace gratuito a sus usuarios. El costo de operación y uso de estas plataformas suele ser un pago mensual o una comisión por las ventas.  
+    p.mb-5 Son plataformas que agrupan a diversos tipos de vendedores que comercializan sus productos utilizando la infraestructura y servicios de estos portales sin necesidad de tomar los riesgos que implica vincular un alojamiento interno o externo dentro de los servidores de una compañía. Son una buena herramienta para comenzar a poner en marcha un comercio electrónico. Existen redes sociales que dentro de su propia infraestructura ofrecen el servicio de <em>marketplace</em> gratuito a sus usuarios. El costo de operación y uso de estas plataformas suele ser un pago mensual o una comisión por las ventas.  
 
     .bg_grad-14
       .row
@@ -254,7 +254,7 @@
                     img.img18(src='@/assets/curso/tema3/01.svg' alt='AvatarTop')
                   figure.d-flex.justify-content-center
                     img.img90(src='@/assets/curso/tema3/t3-23.svg' alt='AvatarTop')
-              p.mb-0.text-center Envíos y logísitica por parte del <em>marketplace.</em>
+              p.mb-0.text-center Envíos y logística por parte del <em>marketplace.</em>
             .tarjeta.bgr_8.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-12
@@ -317,7 +317,7 @@
         p.mb-0 Los <em>marketplaces</em> son una realidad notable en la actualidad como lo dice Pukkas (2021) “podríamos decir que el auge para vender en <em>marketplaces</em> como Amazon se basa en lo siguiente: Amazon tiene a los usuarios y las visitas (entre otros servicios que ofrece para vendedores) y nosotros podemos poner nuestro producto en la plataforma (con algunas normas que deberemos seguir por supuesto)”. No es solo Amazon,  aunque es uno de los más grandes referentes, a continuación se realizará una lista con ejemplos de las principales plataformas y <em>marketplaces</em> analizando sus ventajas, desventajas y costos de operación:
 
     .bg_grad-12.mb-5
-      p.text-bold.p-4.bgr_18.colr_2.mb-5 Principales Marketplaces del mercado 
+      p.text-bold.p-4.bgr_18.colr_2.mb-5 Principales <em>Marketplaces</em> del mercado 
 
       .row.justify-content-between
         .col-12.col-md-2
@@ -389,7 +389,7 @@
             figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            p.mb-0 En cuanto a los punto débiles de esta plataforma se pueden mencionar:
+            p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
               ul.ms-3.mt-3.lista-ul--color
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
@@ -460,7 +460,7 @@
             figure
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            p.mb-0 En cuanto a los punto débiles de esta plataforma se pueden mencionar:
+            p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
               ul.ms-3.mt-3.lista-ul--color
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
@@ -476,7 +476,7 @@
                   | No se puede acceder a la base de datos de clientes.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
-                  | Mayor exposición a comentarios negativos y spam.
+                  span Mayor exposición a comentarios negativos y <em>spam</em>.
     
     h3.p-4.bgr_19.mb-5 Wix
 
@@ -509,7 +509,7 @@
                   | Interfaz amigable.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
-                  | Uso de widgets, botones y herramientas que pueden contribuir positivamente a la experiencia de compra.
+                  span Uso de <em>widgets</em>, botones y herramientas que pueden contribuir positivamente a la experiencia de compra.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Seguridad en transacciones (anti fraude).
@@ -535,7 +535,7 @@
             figure
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            p.mb-0 En cuanto a los punto débiles de esta plataforma se pueden mencionar:
+            p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
               ul.ms-3.mt-3.lista-ul--color
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
@@ -561,7 +561,7 @@
           figure.d-flex.justify-content-center
             img(src='@/assets/curso/tema3/t3-34.svg' alt='AvatarTop')
         .col-12.col-md-9.d-flex.align-items-center
-          p.mb-0 Plataforma de e-commerce más popular en Latinoamérica, cuenta con su propio sistema de pagos lo cual aumenta su solidez y respuesta ante intentos de fraude. También cuenta con su propio centro de distribución lo cual facilita la logística de envíos y entregas. Así mismo la plataforma cuenta con varios tipos de cuenta a elegir por el usuario que tienen diferentes precios. Estos planes aumentan la visibilidad de los productos a comercializar dependiendo de la categoría a la cual se pertenezca. 
+          p.mb-0 Plataforma de <em>e-commerce</em> más popular en Latinoamérica, cuenta con su propio sistema de pagos lo cual aumenta su solidez y respuesta ante intentos de fraude. También cuenta con su propio centro de distribución lo cual facilita la logística de envíos y entregas. Así mismo la plataforma cuenta con varios tipos de cuenta a elegir por el usuario que tienen diferentes precios. Estos planes aumentan la visibilidad de los productos a comercializar dependiendo de la categoría a la cual se pertenezca. 
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-left")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ventajas")
@@ -581,7 +581,7 @@
                   | Excelente respuesta a buscadores.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
-                  | Capacidad de recibir <em>reviews</em> y calificaciones.
+                  span Capacidad de recibir <em>reviews</em> y calificaciones.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Seguridad en transacciones.
@@ -607,7 +607,7 @@
             figure
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            p.mb-0 En cuanto a los punto débiles de esta plataforma se pueden mencionar:
+            p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
               ul.ms-3.mt-3.lista-ul--color
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
@@ -647,7 +647,7 @@
                   | Posicionamiento a nivel latinoamericano y soporte en moneda local.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
-                  | Chat con usuarios para resolver dudas.
+                  span <em>Chat</em> con usuarios para resolver dudas.
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Protección anti fraude.
@@ -673,7 +673,7 @@
             figure
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
-            p.mb-0 En cuanto a los punto débiles de esta plataforma se pueden mencionar:
+            p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
               ul.ms-3.mt-3.lista-ul--color
                 li.mb-0
                   i.fas.fa-caret-right.fa-lg.colr_5

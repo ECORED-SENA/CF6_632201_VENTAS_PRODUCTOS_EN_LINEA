@@ -10,14 +10,14 @@
     .bg_grad-01.mb-5
       .row
         .col-12.col-md-8.order-2.order-md-1(data-aos="fade-right")
-          span.colr_1.text-bold El proceso de promoción de un producto o servicio es una de las etapas más importantes del marketing digital ya que es la principal manera de comunicar al público objetivo sus características, propiedades, beneficios y cualidades. 
+          span.colr_1.text-bold El proceso de promoción de un producto o servicio es una de las etapas más importantes del <em>marketing</em> digital ya que es la principal manera de comunicar al público objetivo sus características, propiedades, beneficios y cualidades. 
           | Una estrategia de promoción también puede ponerse en marcha para potenciar la presentación o introducción de un nuevo producto o servicio. 
           .row.mt-4 
             .col-12.col-md-1
               figure.d-flex.justify-content-center
                 img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-1.svg', alt='1-1')
             .col-12.col-md-11
-              span.etiqueta.text-bold Algunos estudiosos de publicidad y marketing, como McCarthy y Perreault, definen la promoción como la acción de transmitir información entre el vendedor y los compradores potenciales u otros miembros del canal para influir en sus actitudes y comportamientos. 
+              span.etiqueta.text-bold Algunos estudiosos de publicidad y <em>marketing</em>, como McCarthy y Perreault, definen la promoción como la acción de transmitir información entre el vendedor y los compradores potenciales u otros miembros del canal para influir en sus actitudes y comportamientos. 
               span.colr_1.text-bold (Rockcontent, 2017)
               | ; todo esto se hace por medio de la creación de una campaña de comunicación sólida y efectiva que incluye: publicaciones en redes sociales, medios impresos, publicidad pagada en internet, ventas personales, relaciones públicas y estrategias comerciales, todo lo anterior dentro de una estrategia. 
               span.text-bold El principal resultado es incidir en el proceso de compra y atraer la atención del cliente.
@@ -36,11 +36,11 @@
       p Así mismo, es muy importante conocer a fondo las características positivas que tiene el producto o servicio para influenciar al consumidor y explicarle por qué es la mejor opción en el mercado. A continuación, se mencionan algunos componentes que hacen parte de una campaña de promoción de productos y servicios:  
   
       TabsB.color-acento-contenido.mb-5
-        .py-4.py-md-5(titulo="Marketing directo" :icono="require('@/assets/curso/tema1/t1-4.svg')")
+        .py-4.py-md-5(titulo="<em>Marketing</em> directo" :icono="require('@/assets/curso/tema1/t1-4.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
-                h4 Marketing directo
+                h4 <em>Marketing</em> directo
                 p.mb-0 Se establece un contacto con el cliente potencial a través de <em>newsletters</em>, mensajería instantánea, llamadas telefónicas.         
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
@@ -59,7 +59,7 @@
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 Promoción de ventas
-                p.mb-0 A través de descuentos, ofertas, renovaciones automáticas, bundles, plazos de pago, créditos, el cliente podrá ser motivado a tomar la decisión de compra rápidamente así como mejorar su experiencia de compra.  
+                p.mb-0 A través de descuentos, ofertas, renovaciones automáticas, <em>bundles</em>, plazos de pago, créditos, el cliente podrá ser motivado a tomar la decisión de compra rápidamente así como mejorar su experiencia de compra.  
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
               figure
                 img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
@@ -111,7 +111,7 @@
               img(src='@/assets/curso/tema1/t1-17.svg', alt='Texto que describa la imagen')
           .tarjeta.bgr_3(x="4%" y="80%" numero="1")
             h4.mb-0.bgr_4.p-3.text-center.colr_2 Promoción en precio
-            p.p-3.text-center Al bajar el precio de un producto o servicio se busca reactivar el interés de compra del cliente por medio del cambio en el valor adquisitivo. Este tipo de promoción tiene un rápido impacto en el mercado y su efecto es casi inmediato. Acá la idea es destacar la obtención de un producto o servicio a un bajo o mismo valor con un mayor beneficios. Por ejemplo todo a mitad de precio.
+            p.p-3.text-center Al bajar el precio de un producto o servicio se busca reactivar el interés de compra del cliente por medio del cambio en el valor adquisitivo. Este tipo de promoción tiene un rápido impacto en el mercado y su efecto es casi inmediato. Acá la idea es destacar la obtención de un producto o servicio a un bajo o mismo valor con un mayor beneficio. Por ejemplo todo a mitad de precio.
           .tarjeta.bgr_3(x="4%" y="53%" numero="2")
             h4.mb-0.bgr_5.p-3.text-center.colr_2 Promoción en cantidad
             p.p-3.text-center Al crear promociones en el número de unidades o tiempo que se recibe de un producto o servicio, motivan al consumidor a comprar. También incide en la manera en la que el cliente interactúa con las publicaciones o comunicaciones que se realicen en las diferentes plataformas de venta o redes sociales. Ejemplo: compre 3 y lleve uno gratis.
@@ -189,7 +189,7 @@
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema1/t1-23.svg' alt='AvatarTop')
-        p.text-center ¿Cómo se pueden enviar mensajes de marketing a los compradores potenciales?
+        p.text-center ¿Cómo se pueden enviar mensajes de <em>marketing</em> a los compradores potenciales?
       .tarjeta.bgr_8.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
