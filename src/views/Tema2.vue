@@ -41,21 +41,23 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Definición y tipos de comunicación digital
     
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-down-right")
-        figure
-          img(src='@/assets/curso/tema2/t2-4.png', alt='Texto que describa la imagen') 
-      .col-12.col-md-8(data-aos="fade-up-left")
-        p.mb-5 La comunicación digital se define como el proceso de transmisión de datos y contenido que lleva un mensaje a un público objetivo por medio de herramientas y canales que sirve como complemento a una campaña o estrategia de <em>marketing</em>, a alcanzar objetivos organizacionales, a informar de cambios en las políticas internas de una compañía, a reforzar la cultura organizacional, entre otras.
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img.pst_2.d-flex.justify-content-center
-            img.img90(src='@/assets/curso/tema2/t2-5.svg' alt='AvatarTop')
-          .tarjeta.bgr_15.pst_3
-            .p-4
-              p.mb-0 En cuanto a los tipos de comunicación, estos pueden delimitarse con criterios distintos como se mostrará más adelante. Sin embargo es importante acotar la diferencia entre dos de sus componentes: canales y flujo, que se complementan entre sí. Por un lado, los canales se refieren a las entidades de comunicación que existen para que haya un flujo de información. Por otro lado, el flujo se refiere al componente dinámico: a la acción que activa el transmisor del mensaje para que recorra el canal de comunicación. En este caso se definen algunos ejemplos de comunicación digital usuales dentro del mercado:
+    .bg_grad-15
+      .row.mb-5
+        .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-down-right")
+          figure
+            img(src='@/assets/curso/tema2/t2-4.png', alt='Texto que describa la imagen') 
+        .col-12.col-md-8(data-aos="fade-up-left").d-flex.align-items-center
+          div
+            p.mb-5 La comunicación digital se define como el proceso de transmisión de datos y contenido que lleva un mensaje a un público objetivo por medio de herramientas y canales que sirve como complemento a una campaña o estrategia de <em>marketing</em>, a alcanzar objetivos organizacionales, a informar de cambios en las políticas internas de una compañía, a reforzar la cultura organizacional, entre otras.
+            .tarjeta-avatar-b
+              .tarjeta-avatar-b__img.pst_2.d-flex.justify-content-center
+                img.img90(src='@/assets/curso/tema2/t2-5.svg' alt='AvatarTop')
+              .tarjeta.bgr_15.pst_3
+                .p-4
+                  p.mb-0 En cuanto a los tipos de comunicación, estos pueden delimitarse con criterios distintos como se mostrará más adelante. Sin embargo es importante acotar la diferencia entre dos de sus componentes: canales y flujo, que se complementan entre sí. Por un lado, los canales se refieren a las entidades de comunicación que existen para que haya un flujo de información. Por otro lado, el flujo se refiere al componente dinámico: a la acción que activa el transmisor del mensaje para que recorra el canal de comunicación. En este caso se definen algunos ejemplos de comunicación digital usuales dentro del mercado:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-12.col-md-12(data-aos="flip-up")
         .tarjeta.bg_grad-05.p-4
           SlyderA(tipo="b").modif
             .row.justify-content-center.position-relative.d-flex.align-items-center
@@ -160,37 +162,37 @@
       .tarjeta.bgr_12.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
-            img.img120(src='@/assets/curso/tema2/t2-14.svg' alt='AvatarTop')
-        p.text-center Medios digitales propios como sitios <em>web</em>, micrositios para empleados, micrositios informativos con novedades en la organización, o publicación de comunicados o boletines internos.
+            img.img140(src='@/assets/curso/tema2/t2-14.svg' alt='AvatarTop')
+        p.text-center.text-white Medios digitales propios como sitios <em>web</em>, micrositios para empleados, micrositios informativos con novedades en la organización, o publicación de comunicados o boletines internos.
       .tarjeta.bgr_13.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
-            img.img120(src='@/assets/curso/tema2/t2-15.svg' alt='AvatarTop')
+            img.img140(src='@/assets/curso/tema2/t2-15.svg' alt='AvatarTop')
         p.text-center Plataformas de analítica digital, monitoreo o gestión de conexiones internas como Google Alerts y Analytics, Hubspot, Hootsuite, entre otros. 
       .tarjeta.bgr_12.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
-            img.img120(src='@/assets/curso/tema2/t2-16.svg' alt='AvatarTop')
-        p.text-center Desarrollo de <em>apps</em> móviles con funciones de uso interno o acceso a herramientas de comunicación interna.
+            img.img140(src='@/assets/curso/tema2/t2-16.svg' alt='AvatarTop')
+        p.text-center.text-white Desarrollo de <em>apps</em> móviles con funciones de uso interno o acceso a herramientas de comunicación interna.
       .tarjeta.bgr_13.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
-            img.img120(src='@/assets/curso/tema2/t2-17.svg' alt='AvatarTop')
+            img.img140(src='@/assets/curso/tema2/t2-17.svg' alt='AvatarTop')
         p.text-center <em>Apps</em> de gestión de proyectos en línea como <em>Asana, Slack, Trello, Monday.com</em>, entre otros, que permitan a los diferentes colaboradores de un equipo trabajar en proyectos conjuntamente dentro de un mismo espacio virtual colaborativo. 
       .tarjeta.bgr_12.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
-            img.img120(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
-        p.text-center Herramientas digitales de recursos humanos que permitan gestionar nóminas, obtener información financiera, reclutar personal nuevo y cursos de <em>e-learning</em> para capacitaciones.
+            img.img140(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
+        p.text-center.text-white Herramientas digitales de recursos humanos que permitan gestionar nóminas, obtener información financiera, reclutar personal nuevo y cursos de <em>e-learning</em> para capacitaciones.
 
     p.mb-5.text-bold.p-4.bgr_11 Así mismo, para establecer una estrategia clara de comunicación digital interna que habite dentro de la cultura organizacional se deben tener en cuenta elementos como:
 
     .bg_grad-07
-      .row.mb-5.align-items-center
+      .row.mb-5.align-items-center.justify-content-around
         .col-12.col-md-7
           figure.d-flex.justify-content-center
             img(src='@/assets/curso/tema2/t2-25.png', alt='1-1')
-        .col-12.col-md-5
+        .col-12.col-md-3
           SlyderF.mb-5(columnas="col-lg-12 col-xl-12")
             .tarjeta.bgr_8.p-4.h-100
               .row.justify-content-center.mb-3

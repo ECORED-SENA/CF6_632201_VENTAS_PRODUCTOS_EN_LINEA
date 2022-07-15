@@ -6,19 +6,20 @@
       .titulo-principal__numero.colr
         span 3
       h1  Plataformas en línea 
-    
-    .row.mb-5.d-flex.align-items-center
-      .col-12.col-md-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
-      .col-12.col-md-8(data-aos="fade-left")
-        p.mb-5.text-bold Las plataformas de venta en línea son portales, aplicaciones, <em>widgets</em>, y <em>plugins</em> de redes sociales que permiten comercializar diferentes productos y servicios por medio de diversos canales online. Estas plataformas ofrecen soluciones ajustadas al tamaño de las compañías según sus necesidades, incluso, pueden ofrecer soluciones de infraestructura de venta o robustecer los sistemas de venta de una compañía más grande.
-        .row  
-          .col-12.col-md-1
-            figure
-              img.d-none.d-md-flex(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
-          .col-12.col-md-11
-            p.mb-0.text-bold.colr_4 Dentro de la creación de una estrategia de comunicación, <em>marketing</em> y ventas en línea es necesario tener claro cuales son las principales plataformas que existen en el mercado para dichos fines y elegir la mejor opción según los objetivos organizacionales. Sin embargo se debe recordar también que las plataformas digitales son solo una solución que posibilita la ejecución de diversas tareas pero que no deben ser la única base de una estrategia organizacional.
+
+    .bg_grad-16
+      .row.mb-5.d-flex.align-items-center
+        .col-12.col-md-4(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
+        .col-12.col-md-8(data-aos="fade-left")
+          p.mb-5.text-bold Las plataformas de venta en línea son portales, aplicaciones, <em>widgets</em>, y <em>plugins</em> de redes sociales que permiten comercializar diferentes productos y servicios por medio de diversos canales online. Estas plataformas ofrecen soluciones ajustadas al tamaño de las compañías según sus necesidades, incluso, pueden ofrecer soluciones de infraestructura de venta o robustecer los sistemas de venta de una compañía más grande.
+          .row  
+            .col-12.col-md-1
+              figure
+                img.d-none.d-md-flex(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+            .col-12.col-md-11
+              p.mb-0.text-bold.colr_4 Dentro de la creación de una estrategia de comunicación, <em>marketing</em> y ventas en línea es necesario tener claro cuales son las principales plataformas que existen en el mercado para dichos fines y elegir la mejor opción según los objetivos organizacionales. Sin embargo se debe recordar también que las plataformas digitales son solo una solución que posibilita la ejecución de diversas tareas pero que no deben ser la única base de una estrategia organizacional.
     
     .cajon.bgr.p-4(data-aos="flip-up")
       p.mb-0 Estas herramientas también permiten llevar a cabo campañas de impacto y hacer seguimiento a estrategias con un mayor grado de  complejidad por varias personas simultáneamente.
@@ -42,7 +43,7 @@
           figure
             img(src='@/assets/curso/tema3/t3-3.png', alt='Texto que describa la imagen')
 
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-down")
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-3")(data-aos="flip-down")
         .tarjeta.bgr_8.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8.d-flex.justify-content-center
@@ -106,17 +107,29 @@
       p.text-bold.p-4.bgr_18.colr_2.mb-5 Existen tres tipos principales de plataforma de ventas en línea:
 
       .row.mb-5
-        .col-12.col-md-4
-          figure.position-relative.mb-5(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema3/t3-13.svg', alt='introducción')
-        .col-12.col-md-4
-          figure.position-relative.mb-5(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema3/t3-14.svg', alt='introducción')
-        .col-12.col-md-4
-          figure.position-relative.mb-5(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema3/t3-15.svg', alt='introducción')
+        .col-12.col-md-4.mb-3.mb-md-0.position-relative(data-aos="zoom-in-up")
+          .bgr_22.p-4
+            figure.mb-3
+              img.img90(src='@/assets/curso/tema3/t3-40.svg', alt='introducción')
+            p <em>E-commerce</em> con alojamiento propio
+          figure.pst_9
+            img.img124(src='@/assets/curso/tema3/01.svg', alt='introducción')
+        .col-12.col-md-4.mb-3.mb-md-0.position-relative(data-aos="zoom-in-up")
+          .bgr_22.p-4
+            figure.mb-4
+              img.img90(src='@/assets/curso/tema3/t3-41.svg', alt='introducción')
+            p <em>E-commerce</em> con alojamiento externo
+          figure.pst_9
+            img.img140(src='@/assets/curso/tema3/02.svg', alt='introducción')
+        .col-12.col-md-4.mb-3.mb-md-0.position-relative(data-aos="zoom-in-up")
+          .bgr_22.p-4
+            figure.mb-4
+              img.img90(src='@/assets/curso/tema3/t3-39.svg', alt='introducción')
+            p <em>Marketplaces</em> 
+          figure.pst_9
+            img.img140(src='@/assets/curso/tema3/03.svg', alt='introducción')
  
-    h3.p-4.bgr_19.mb-5 <em>E-commerce</em> con alojamiento propio
+    h3.p-3.bgr_19.mb-5 <em>E-commerce</em> con alojamiento propio
 
     .bg_grad-11
       .row.mb-5
@@ -166,7 +179,7 @@
       .bloque-texto-g__texto.p-5
         p.mb-0 Para el uso correcto de estas plataformas es necesario contar con un conocimiento medio/avanzado de plataformas de ventas al igual que estar actualizado en las generalidades y conceptos más importantes de las ventas en líneas para poder alimentar a la plataforma de manera adecuada. Ejemplos de este tipo de plataformas son <em>Prestashop, Magento, WooCommerce</em>, etc.
     
-    h3.p-4.bgr_19.mb-5 <em>E-commerce</em> con alojamiento externo
+    h3.p-3.bgr_19.mb-5 <em>E-commerce</em> con alojamiento externo
 
     .row.mb-5
       .col-12.col-md-9.order-2.order-md-1(data-aos="fade-right")
@@ -234,7 +247,7 @@
                   i.lista-ul__vineta.colr_5
                   span.text-white Algunas plataformas están en otros idiomas diferentes al español.
     
-    h3.p-4.bgr_19.mb-5 <em>Marketplaces</em>
+    h3.p-3.bgr_19.mb-5 <em>Marketplaces</em>
 
     p.mb-5 Son plataformas que agrupan a diversos tipos de vendedores que comercializan sus productos utilizando la infraestructura y servicios de estos portales sin necesidad de tomar los riesgos que implica vincular un alojamiento interno o externo dentro de los servidores de una compañía. Son una buena herramienta para comenzar a poner en marcha un comercio electrónico. Existen redes sociales que dentro de su propia infraestructura ofrecen el servicio de <em>marketplace</em> gratuito a sus usuarios. El costo de operación y uso de estas plataformas suele ser un pago mensual o una comisión por las ventas.  
 
@@ -246,7 +259,7 @@
         .col-12.col-md-8(data-aos="fade-left")
           h3 Ventaja
           p Son muy prácticas y ventajosas estas plataformas sobretodo para quienes no tienen el tiempo o los recursos para mantener al día este tipo de recursos, sus principales ventajas son:
-          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+          SlyderF.mb-5(columnas="col-lg-4 col-xl-3")
             .tarjeta.bgr_8.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-12
@@ -317,7 +330,7 @@
         p.mb-0 Los <em>marketplaces</em> son una realidad notable en la actualidad como lo dice Pukkas (2021) “podríamos decir que el auge para vender en <em>marketplaces</em> como Amazon se basa en lo siguiente: Amazon tiene a los usuarios y las visitas (entre otros servicios que ofrece para vendedores) y nosotros podemos poner nuestro producto en la plataforma (con algunas normas que deberemos seguir por supuesto)”. No es solo Amazon,  aunque es uno de los más grandes referentes, a continuación se realizará una lista con ejemplos de las principales plataformas y <em>marketplaces</em> analizando sus ventajas, desventajas y costos de operación:
 
     .bg_grad-12.mb-5
-      p.text-bold.p-4.bgr_18.colr_2.mb-5 Principales <em>Marketplaces</em> del mercado 
+      p.text-bold.p-3.bgr_18.colr_2.mb-5 Principales <em>Marketplaces</em> del mercado 
 
       .row.justify-content-between
         .col-12.col-md-2
@@ -336,7 +349,7 @@
           figure.d-flex.justify-content-center
             img(src='@/assets/curso/tema3/t3-35.svg' alt='AvatarTop')
 
-    h3.p-4.bgr_19.mb-5 Amazon
+    h3.p-3.bgr_19.mb-5 Amazon
 
     .bg_grad-13.mb-5
       .row(data-aos="flip-up")
@@ -407,7 +420,7 @@
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Estricto cumplimiento de términos y condiciones para no disminuir calificación.
 
-    h3.p-4.bgr_19.mb-5 Redes sociales
+    h3.p-3.bgr_19.mb-5 Redes sociales
 
     .bg_grad-13.mb-5
       .row(data-aos="flip-up")
@@ -421,8 +434,8 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ventajas")
         .row
           h4.mb-4 Ventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-37.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 Dentro de sus principales ventajas se encuentran:
@@ -448,16 +461,16 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Costos")
         .row
           h4.mb-4 Costos
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-36.svg', alt='Texto que describa la imagen')
           .col-xl-10.mt-3.mt-md-4
             p.mb-0 Estas son aplicaciones que trabajan de manera gratuita. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Desventajas")
         .row
           h4.mb-4 Desventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
@@ -478,7 +491,7 @@
                   i.fas.fa-caret-right.fa-lg.colr_5
                   span Mayor exposición a comentarios negativos y <em>spam</em>.
     
-    h3.p-4.bgr_19.mb-5 Wix
+    h3.p-3.bgr_19.mb-5 Wix
 
     .bg_grad-13.mb-5
       .row(data-aos="flip-up")
@@ -492,8 +505,8 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ventajas")
         .row
           h4.mb-4 Ventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-37.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 Dentro de sus principales ventajas se encuentran:
@@ -523,16 +536,16 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Costos")
         .row
           h4.mb-4 Costos
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-36.svg', alt='Texto que describa la imagen')
           .col-xl-10.mt-3.mt-md-4
             p.mb-0 Planes de negocios y <em>e-commerce</em> desde 9.50 a 25 dólares mensuales. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Desventajas")
         .row
           h4.mb-4 Desventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
@@ -553,7 +566,7 @@
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Algunas plantillas pueden resultar repetitivas entre usuarios.
     
-    h3.p-4.bgr_19.mb-5 Mercado libre
+    h3.p-3.bgr_19.mb-5 Mercado libre
 
     .bg_grad-13.mb-5
       .row(data-aos="flip-up")
@@ -567,8 +580,8 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ventajas")
         .row
           h4.mb-4 Ventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-37.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 Dentro de sus principales ventajas se encuentran:
@@ -595,16 +608,16 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Costos")
         .row
           h4.mb-4 Costos
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-36.svg', alt='Texto que describa la imagen')
           .col-xl-10.mt-3.mt-md-4
             p.mb-0 Comisiones por venta entre el 11 y el 30% según el tipo de plan y producto. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Desventajas")
         .row
           h4.mb-4 Desventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:
@@ -622,7 +635,7 @@
                   i.fas.fa-caret-right.fa-lg.colr_5
                   | Alta y feroz competencia entre usuarios por ofrecer precios bajos.
     
-    h3.p-4.bgr_19.mb-5 Linio
+    h3.p-3.bgr_19.mb-5 Linio
 
     .bg_grad-13.mb-5
       .row(data-aos="flip-up")
@@ -636,8 +649,8 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ventajas")
         .row
           h4.mb-4 Ventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-37.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 Dentro de sus principales ventajas se encuentran:
@@ -661,16 +674,16 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Costos")
         .row
           h4.mb-4 Costos
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-36.svg', alt='Texto que describa la imagen')
           .col-xl-10.mt-3.mt-md-4
             p.mb-0 Comisiones por venta de del 6 al 22% según tipo de plan y producto. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Desventajas")
         .row
           h4.mb-4 Desventajas
-          .col-xl-2
-            figure
+          .col-xl-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
               img.img140(src='@/assets/curso/tema3/t3-38.svg', alt='Texto que describa la imagen')
           .col-xl-10
             p.mb-0 En cuanto a los puntos débiles de esta plataforma se pueden mencionar:

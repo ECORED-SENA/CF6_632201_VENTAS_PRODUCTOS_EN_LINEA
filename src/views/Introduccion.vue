@@ -12,7 +12,7 @@
       .col-12.col-md-1.d-flex.align-items-center
         figure
           img.d-none.d-lg-flex(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-9
+      .col-12.col-md-9(data-aos="fade-left")
         p.mb-0 La comunicación digital llegó para quedarse por un buen tiempo y la misión del comercial en línea es trabajarla a favor de los objetivos comerciales de las empresas como se verá a continuación:
     
     figure.mb-5

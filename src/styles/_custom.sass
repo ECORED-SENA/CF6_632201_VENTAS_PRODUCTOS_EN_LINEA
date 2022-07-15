@@ -55,6 +55,8 @@
   max-width: 100px !important
 .img120
   max-width: 120px !important
+.img124
+  max-width: 124px !important
 .img140
   max-width: 140px !important
 .img160
@@ -129,7 +131,7 @@
       background-color: #EFD198
   &_8
     background-color: #FFF
-    border: groove
+    border: outset
   &_9
     background-color: #D4E3F2
   &_10
@@ -168,6 +170,10 @@
   &_21
     background-color: #ECE5F7
     border-radius: 10px
+  &_22
+    background-color: #F6F6F6
+    border-top-right-radius: 65px
+    border-bottom-left-radius: 65px
 .bg_grad-01
   position: relative
   .row, p, .cajon, .slyder-f
@@ -442,6 +448,43 @@
     @media screen and (max-width: 992px)
       height: calc( 100% + 3rem)
       width: calc( 100% + 6rem)
+.bg_grad-15
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0rem
+    left: 14%
+    width: 94%
+    height: 100%
+    background-color: #F6F6F6
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: 100%
+      left: 0
+    @media screen and (max-width: 992px)
+      width: calc( 100% + 6rem)
+.bg_grad-16
+  position: relative
+  .row, p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 17%
+    width: 91%
+    height: 100%
+    background-color: #FCFCFC
+    @media screen and (max-width: 420px)
+      height: calc( 100% + 3rem)
+      width: 100%
+    @media screen and (max-width: 992px)
+      width: calc( 100% + 6rem)
 //POSICION EN PANTALLA// 
 .pst
   left: 50%
@@ -493,6 +536,15 @@
       top: -208px
   &_8 
     padding-left: 2% !important
+  &_9
+    position: absolute
+    top: 40%
+    left: 60%
+    @media screen and (max-width: 992px)
+      top: 50%
+      left: 45%
+    @media screen and (max-width: 420px)
+      top: 30%
   
 
       

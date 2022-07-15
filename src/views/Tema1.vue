@@ -37,14 +37,14 @@
   
       TabsB.color-acento-contenido.mb-5
         .py-4.py-md-5(titulo="<em>Marketing</em> directo" :icono="require('@/assets/curso/tema1/t1-4.svg')")
-          .row
-            .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
+          .row.justify-content-around
+            .col-md-5.p-4.order-2.order-md-1.d-flex.align-items-center
               div
                 h4 <em>Marketing</em> directo
                 p.mb-0 Se establece un contacto con el cliente potencial a través de <em>newsletters</em>, mensajería instantánea, llamadas telefónicas.         
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img350(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Publicidad" :icono="require('@/assets/curso/tema1/t1-5.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
@@ -52,8 +52,8 @@
                 h4 Publicidad
                 p.mb-0 La publicidad se presenta durante el proceso de promoción mediante campañas en diferentes medios de comunicación anuncios en medios digitales, redes sociales, realización de piezas digitales, videos virales, contenido multimedia que no solo se albergue en plataformas sino que también aparezca replicado en otros portales, <em>newsletters</em>, etc. Este componente es de gran alcance y se identifica claramente la marca en esta publicidad, así sea de manera implícita en campañas de expectativas. 
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-11.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img250(src='@/assets/curso/tema1/t1-11.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Promoción de ventas" :icono="require('@/assets/curso/tema1/t1-6.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
@@ -61,8 +61,8 @@
                 h4 Promoción de ventas
                 p.mb-0 A través de descuentos, ofertas, renovaciones automáticas, <em>bundles</em>, plazos de pago, créditos, el cliente podrá ser motivado a tomar la decisión de compra rápidamente así como mejorar su experiencia de compra.  
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img250(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Relaciones públicas" :icono="require('@/assets/curso/tema1/t1-7.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
@@ -70,8 +70,8 @@
                 h4 Relaciones públicas
                 p.mb-0 Las relaciones públicas pueden abarcar desde acercamiento a personalidades de marca para crear alianzas estratégicas hasta crear publicaciones de redes sociales junto a <em>influencers</em> digitales a cambio de crédito para gastar en la marca. El objetivo es establecer una proyección aspiracional hacia el público objetivo que permita que este se identifique plenamente con el producto o servicio ofrecido.
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-13.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img250(src='@/assets/curso/tema1/t1-13.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Venta personal" :icono="require('@/assets/curso/tema1/t1-8.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
@@ -79,8 +79,8 @@
                 h4 Venta personal
                 p.mb-0 Se basa en establecer una conexión con el comprador que sea lo más directa posible, a través del equipo humano. Esto puede darse en entornos reales o virtuales: ferias, convenciones, reuniones de venta, etc. 
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img250(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
         .py-4.py-md-5(titulo="Eventos y experiencias" :icono="require('@/assets/curso/tema1/t1-9.svg')")
           .row
             .col-md-8.p-4.order-2.order-md-1.d-flex.align-items-center
@@ -88,8 +88,8 @@
                 h4 Eventos y experiencias
                 p.mb-0 Por medio de eventos presenciales o virtuales en donde el cliente haga parte de un entorno, este puede identificarse más directamente con el producto y servicio y motivarse a adquirirlo. Adicionalmente, las experiencias interactivas que tenga el cliente tanto con la marca como con otros usuarios, que compartan reacciones positivas del producto o servicio, también pueden lograr este objetivo. Otros ejemplos de eventos y experiencias son las ferias virtuales o las visitas a puntos de venta o <em>showrooms</em>.
             .col-md-4.mb-3.mb-md-0.order-1.order-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img250(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
 
     separador
 
@@ -169,7 +169,7 @@
         .bloque-texto-g__texto.p-5.pst_1
           p.mb-0 Una estrategia promocional debe desarrollarse teniendo en cuenta varios factores como el público objetivo. Luego de saber a qué tipo de clientes se dirige, se podrá establecer el tono de la estrategia de promoción y los intereses y necesidades a los cuales se va a dar solución. El siguiente paso es delimitar los tiempos de vigencia y duración de las promociones. Es importante tener en cuenta las siguientes preguntas: 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-up")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.bgr_8.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8.d-flex.justify-content-center
